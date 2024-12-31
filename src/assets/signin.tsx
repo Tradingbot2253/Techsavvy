@@ -1,7 +1,7 @@
 function SignIn(){
     return(
      <center>
-        <form method="POST" action="http://localhost/learner/db-connect1.php" >
+        <form method="POST" action="https://greatminds.42web.io/db-connect1.php" >
         <h1>Login</h1>
         <div >
 					<label className="label_deg">USERNAME</label>
@@ -16,7 +16,7 @@ function SignIn(){
 					<input className="btn btn-primary" type="submit" name="submit"value="Login"></input>
 				</div>
 				<h4>Registered yet?</h4>
-				<a href="/SignUp">click here</a>
+				<a href="/signup">click here</a>
                 </form>
      </center>
     );
